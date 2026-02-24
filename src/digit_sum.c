@@ -1,4 +1,17 @@
+/* Author: Bohush Palina, group 11 */
+
+/*
+ * digit_sum.c
+ * Implementation of digit sum calculation function.
+ */
+
 #include "digit_sum.h"
+
+/*
+ * Function: digit_sum
+ * -------------------
+ * Calculates sum of digits of a number.
+ */
 
 int digit_sum(int number)
 {
