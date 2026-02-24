@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -o labrabota2-1 /home/runner/lab2-task1-gr11-bohush/src/main.c && ./labrabota2-1"
+run = "gcc src/main.c src/digit_sum.c -o labrabota2-1 && ./labrabota2-1 10"
 
 [nix]
 channel = "stable-25_05"
