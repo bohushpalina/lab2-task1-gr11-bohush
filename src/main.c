@@ -1,16 +1,8 @@
-/* hello.c */
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-int digit_sum(int number)
-{
-	int sum = 0;
-	while (number > 0)
-	{
-		sum += number % 10;
-		number /= 10;
-	}
-	return sum;
-}
+#include "digit_sum.h"
 
 void main (int argc, char* argv[])
 {
