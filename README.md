@@ -1,11 +1,13 @@
 # Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+This repository contains solution for labrabota 2, task 1.
+**Student: Bohush Palina, group 11.**
 
 # Usage
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+This project prints messages to the console using C language.
 
 # Building
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+The project is built in Replit using GCC compiler.
+To run the program use the Run button in Replit.
