@@ -1,4 +1,4 @@
-/* Author: Bohush Palina, group 11 */
+/* Author: Bohush Palina, group 11a */
 
 /*
  * digit_sum.c
