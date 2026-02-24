@@ -32,4 +32,25 @@ void main (int argc, char* argv[])
 	printf("\n");
 
 	int max_sum = digit_sum(array[0]);
+	for (int i = 1; i < n; i++)
+  {
+    int current_sum = digit_sum(array[i]);
+
+    if (current_sum > max_sum)
+    {
+      max_sum = current_sum;
+    }
+  }
+
+	printf("Numbers with maximum digit sum (%d):\n", max_sum);
+  for (int i = 0; i < n; i++)
+  {
+    if (digit_sum(array[i]) == max_sum)
+    {
+      printf("%d ", array[i]);
+    }
+  }
+  printf("\n");
+
+  return 0;
 }
