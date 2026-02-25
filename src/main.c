@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "array_utils.h"
+#include "digit_sum.h"
 
 int main(
         int             argc,
