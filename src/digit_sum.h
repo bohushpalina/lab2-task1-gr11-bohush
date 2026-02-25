@@ -1,15 +1,34 @@
-/* Author: Bohush Palina, group 11a */
+/*
+ * Author:      Bohush Palina
+ * Group:       11a
+ */
+
 #ifndef DIGIT_SUM_H
 #define DIGIT_SUM_H
 
-/*
- * Function: digit_sum
- * -------------------
- * Calculates sum of digits of a number.
- * number: natural number
- * returns: sum of digits
- */
+void generate_array(
+        int             *array,
+        int             size
+);
 
-int digit_sum(int number);
+void print_array(
+        const int       *array,
+        int             size
+);
 
-#endif
+int find_max_digit_sum(
+        const int       *array,
+        int             size
+);
+
+void print_numbers_with_max_sum(
+        const int       *array,
+        int             size,
+        int             max_sum
+);
+
+int digit_sum(
+        int             number
+);
+
+#endif /* DIGIT_SUM_H */
