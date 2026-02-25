@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains solution for labrabota 2, task 1.
+This repository contains solution for laboratory work 2, task 1.
 **Student: Bohush Polina, group 11.**
 
 # Usage
