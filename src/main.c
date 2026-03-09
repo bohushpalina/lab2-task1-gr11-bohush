@@ -8,10 +8,7 @@
 #include <time.h>
 #include "digit_sum.h"
 
-int main(
-        int             argc,
-        char            *argv[]
-)
+int main(int argc, char *argv[])
 {
         int             n;                      /* Size of the array                */
         int             max_sum;                /* Maximum digit sum found          */
@@ -37,26 +34,13 @@ int main(
 
         srand(time(NULL));
 
-        generate_array(
-                array,
-                n
-        );
+        generate_array(array, n);
 
-        print_array(
-                array,
-                n
-        );
+        print_array(array, n);
 
-        max_sum = find_max_digit_sum(
-                array,
-                n
-        );
+        max_sum = find_max_digit_sum(array, n);
 
-        print_numbers_with_max_sum(
-                array,
-                n,
-                max_sum
-        );
+        print_numbers_with_max_sum(array, n, max_sum);
 
         free(array);
 
