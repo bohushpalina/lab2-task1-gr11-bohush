@@ -7,10 +7,7 @@
 #include <stdlib.h>
 #include "digit_sum.h"
 
-void generate_array(
-        int             *array,
-        int             size
-)
+void generate_array(int* array, int size)
 {
         int             i;
 
@@ -19,10 +16,7 @@ void generate_array(
         }
 }
 
-void print_array(
-        const int       *array,
-        int             size
-)
+void print_array(const int *array, int size)
 {
         int             i;
 
@@ -35,10 +29,7 @@ void print_array(
         printf("\n");
 }
 
-int find_max_digit_sum(
-        const int       *array,
-        int             size
-)
+int find_max_digit_sum(const int *array, int size)
 {
         int             i;
         int             max_sum;                /* Current maximum sum              */
@@ -57,11 +48,7 @@ int find_max_digit_sum(
         return max_sum;
 }
 
-void print_numbers_with_max_sum(
-        const int       *array,
-        int             size,
-        int             max_sum
-)
+void print_numbers_with_max_sum(const int *array, int size, int max_sum)
 {
         int             i;
 
@@ -76,9 +63,7 @@ void print_numbers_with_max_sum(
         printf("\n");
 }
 
-int digit_sum(
-        int             number
-)
+int digit_sum(int number)
 {
         int             sum = 0;                /* Accumulated sum of digits        */
 
